@@ -1,0 +1,40 @@
+#textinput {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#addbutton {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addbutton:hover {
+  background-color: #45a049;
+}
+
+div {
+  display: flex;
+  gap: 10px;
+}
+
+.draggable-word {
+  display: inline-block;
+  cursor: grab;
+  user-select: none;
+  white-space: nowrap; /* Чтоб буквы не переносились */
+}
+
+.draggable-letter {
+  display: inline-block;
+  padding: 2px;
+  cursor: grab;
+  user-select: none;
+}
